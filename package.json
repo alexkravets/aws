@@ -1,6 +1,6 @@
 {
   "name": "@kravc/aws",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Base AWS classes to help mock AWS SDK methods",
   "main": "src/index.js",
   "repository": {
@@ -17,17 +17,17 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.10",
-    "config": "^3.3.9",
+    "config": "^4.1.0",
     "eslint": "^8.51.0",
     "mocha": "^10.2.0",
     "nyc": "^15.1.0"
   },
   "peerDependencies": {
-    "config": "^3.3.9"
+    "config": "^4.1.0"
   },
   "dependencies": {
-    "@aws-sdk/client-lambda": "^3.429.0",
-    "@aws-sdk/credential-providers": "^3.429.0",
+    "@aws-sdk/client-lambda": "^3.856.0",
+    "@aws-sdk/credential-providers": "^3.856.0",
     "lodash.get": "^4.4.2"
   }
 }
