@@ -25,13 +25,13 @@ const execute = async <
   serviceName: string,
   operationId: string,
   parameters: P = {} as P
-): Promise<R | undefined> => {
+): Promise<R> => {
   const functionName = config.get(`services.${serviceName}`) as string;
   const lambdaService = new LambdaService(functionName, options);
 
   const result = await lambdaService.execute(operationId, parameters);
 
-  return result as R | undefined;
+  return result as R;
 };
 
 /** Executes asynchronous request to the lambda function. */
