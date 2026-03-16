@@ -1,0 +1,6 @@
+aws:
+  region: localhost
+  profile: private
+
+services:
+  example: example-dev-api

@@ -1,6 +1,5 @@
 .DS_Store
-.serverless
-.nyc_output
-node_modules
+dist
 coverage
-serverless.yaml
+node_modules
+.nyc_output
